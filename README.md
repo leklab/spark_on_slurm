@@ -7,7 +7,7 @@
 nodes - integer (default: 1)
 memory - integer, needs to end with K, M or G. eg. 4G (default: 4G)
 cpus - integer (default: 4)
-toime - integer, needs to end with s, m or h. eg. 30m (default: 1h)
+time - integer, needs to end with s, m or h. eg. 30m (default: 1h)
 
 ```
 
@@ -55,7 +55,7 @@ ssh -f -N -L 8021:c13n10:4040 netid@ruddle.hpc.yale.edu
 http://localhost:8021
 ```
 
-##TO DO
+## TO DO
 Make the output of the script more user friendly and fault tolerant
 
 
