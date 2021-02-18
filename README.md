@@ -1,4 +1,4 @@
-# Creating Apache Spark cluster on Slum
+# Creating Apache Spark cluster on Slurm
 
 ## Usage
 ```
