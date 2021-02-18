@@ -19,6 +19,8 @@ module -q load GCC/5.4.0-2.26
 # identify the Spark cluster with the Slurm jobid
 export SPARK_IDENT_STRING=$SLURM_JOBID
 
+echo $SPARK_HOME
+
 # prepare directories
 export SPARK_WORKER_DIR=${SPARK_WORKER_DIR:-$HOME/.spark/worker}
 export SPARK_LOG_DIR=${SPARK_LOG_DIR:-$HOME/.spark/logs}
