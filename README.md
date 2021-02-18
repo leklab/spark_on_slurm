@@ -20,6 +20,10 @@ Thu Feb 18 17:17:49 EST 2021: started Spark cluster master: spark://c15n10.ruddl
 Thu Feb 18 17:17:49 EST 2021: Spark Master UI  port: MasterUI' on port 8080.
 Thu Feb 18 17:17:49 EST 2021: SLURM_JOB_ID: 11198281
 ```
+Sometimes there is a lag in the file system. If it fails, look in the file yourself  
+```
+cat spark_details.txt
+```
 
 ## Connection
 There are three possible connections when running hail on a Spark cluster:  
