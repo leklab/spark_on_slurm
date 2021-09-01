@@ -21,7 +21,7 @@ echo "time: ${time:-1h}"
 rm spark_details.txt
 
 sbatch --nodes=${nodes:-1} --mem-per-cpu=${mem:-4G} --cpus-per-task=${cpus:-4} --ntasks-per-node=1 \
---export=ALL,time=${time:-1h} create-spark-cluster.cmd 
+--export=ALL,time=${time:-1h} create-spark-cluster-3.1.cmd 
 
 sleep 10
 
